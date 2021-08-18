@@ -1,3 +1,6 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .nav-bar{
     display: flex;
     justify-content:space-around;
@@ -23,4 +26,7 @@
      justify-content: space-between;
      width: 50%;
      padding-left: 0px;
+ }
+ li:hover{
+     font-size: 25px;
  }
