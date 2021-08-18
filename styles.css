@@ -34,18 +34,16 @@ body {
 }
 
 .main-content {
-  background-image: url(img/Header-llustration-desktop@2x.jpg);
+  background-image: url(img/header-illsutration-mobile@2x.png);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: flex-start;
   padding-left: 27%;
   padding-right: 3%;
-  min-height: 100vh;
-  max-width: 60%;
 }
 
 .heading {
-  padding-top: 170px;
+  padding-top: 100px;
 }
 
 .footer {
@@ -67,4 +65,15 @@ li:hover {
 img {
   width: 30px;
   margin: 10px;
+}
+
+.ham{
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 914px) {
+  .nav-bar {
+    display: none;
+  }
 }
