@@ -2,16 +2,19 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after{
+*, 
+*::before,
+ *::after {
   box-sizing: inherit;
 }
+
 body {
   font-family: Inter,Verdana, Geneva, Tahoma, sans-serif;
   min-width: 1400px;
   margin: 0;
 }
 
-.nav-bar li a{
+.nav-bar li a {
   color:blue;
   font-weight: 100;
   letter-spacing: 2px;
@@ -28,7 +31,6 @@ body {
   justify-content:center;
   flex-shrink: inherit;
   list-style: none;
-
 }
 
 .main-content {
@@ -52,7 +54,7 @@ body {
   padding-left: 1px;
 }
 
-li:hover{
+li:hover {
   text-decoration: aqua;
 }
 
