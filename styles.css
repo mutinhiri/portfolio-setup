@@ -2,23 +2,23 @@ html {
   box-sizing: border-box;
 }
 
-*, 
+*,
 *::before,
- *::after {
+*::after {
   box-sizing: inherit;
 }
 
 body {
-  font-family: Inter,Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
   min-width: 1400px;
   margin: 0;
 }
 
 .nav-bar li a {
-  color:blue;
+  color: blue;
   font-weight: 100;
   letter-spacing: 2px;
-  text-decoration:saddlebrown;
+  text-decoration: saddlebrown;
   padding: 20px 55px;
   display: inline-block;
   width: 100%;
@@ -28,7 +28,7 @@ body {
 
 .nav-bar {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-shrink: inherit;
   list-style: none;
 }
