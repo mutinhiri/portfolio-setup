@@ -1,4 +1,4 @@
-html {
+/*html {
   box-sizing: border-box;
 }
 
@@ -6,11 +6,11 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
+}*/
 
 body {
   font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
-  min-width: 1400px;
+  min-width: 100vw;
   margin: 0;
 }
 
@@ -38,9 +38,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-left: 30%;
-  padding-right: 30%;
-  min-height: 90vh;
+  padding-left: 27%;
+  padding-right: 3%;
+  min-height: 100vh;
+  max-width: 60%;
 }
 
 .heading {
@@ -52,16 +53,18 @@ body {
   display: flex;
   width: 50%;
   padding-left: 1px;
+  justify-content: center;
 }
 
 li:hover {
   text-decoration: aqua;
 }
 
-.fab {
-  padding: 10px;
-}
-
 .green {
   color: green;
+}
+
+img {
+  width: 30px;
+  margin: 10px;
 }
