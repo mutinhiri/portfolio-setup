@@ -1,9 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 body {
-  padding:24px;
+  padding: 24px;
   font-family: 'Poppins', sans-serif;
-  /*width: 375px*/;
-  /*height: 718px*/
   background-color: rgba(255, 255, 255, 1);
   display: grid;
   margin: 0;
@@ -13,7 +11,7 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   margin-top: 10px;
-  height:;
+  margin-bottom: 1px;
 }
 
 .logo {
@@ -21,13 +19,12 @@ body {
   
 }
 
-.hamb{
+.hamb {
   display: flex;
   justify-content: flex-end;
-
 }
 
-.hamb img{
+.hamb img {
   max-height: 30px;
 }
 
@@ -37,14 +34,15 @@ body {
   font-weight: bolder;
   align-items: center;
 }
-.intro  h3{
+
+.intro h3 {
   font-size: 40px;
   line-height: 52px;
-  font-weight:900;
+  font-weight: 900;
 }
 
 .welcome-section {
-  background-image: url(img/header-shapes\ mobile@2x.png);
+  background-image: url(img/Header\ bg.png);
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -55,10 +53,10 @@ body {
 .social-media{
   display: flex !important;
   align-content: flex-start;
-  padding-left: 0px;
+  padding-left: 1px;
   list-style: none;
   padding-top: 1px;
-  margin: 0px;
+  margin: 1px;
   justify-content: space-between;
   width: 150px;
 }
@@ -68,12 +66,11 @@ body {
 }
 
 .connect {
-  padding-top: 0px;
+  padding-top: 1px;
   padding-bottom: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
   color: blue;
   font-size: 18px;
-  
 }
 
 .card-text {
