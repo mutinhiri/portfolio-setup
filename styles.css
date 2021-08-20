@@ -12,11 +12,12 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 128px;
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 18px;
+  
 }
 
 .hamb{
@@ -48,7 +49,7 @@ body {
 }
 
 .social-media{
-  display: flex;
+  display: flex !important;
   align-content: flex-start;
   padding-left: 0px;
   list-style: none;
