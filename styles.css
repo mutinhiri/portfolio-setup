@@ -40,7 +40,7 @@ body {
 }
 
 .welcome-section {
-  background-image: url(img/header-shapes\ mobile@2x.png);
+  background-image: url(img/Header\ bg.png);
   background-repeat: no-repeat;
   display: grid;
 }
