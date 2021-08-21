@@ -15,9 +15,10 @@ body {
 }
 
 .header {
-  display: inline-flex;
+  display: flex;
   margin-top: 10px;
   margin-bottom: 1px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -27,6 +28,7 @@ body {
 .hamb {
   display: flex;
   justify-content: flex-end;
+  flex: 1;
 }
 
 .hamb img {
