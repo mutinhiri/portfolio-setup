@@ -188,7 +188,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 1px
+  margin-left: 1px;
 }
 
 .lang-item {
