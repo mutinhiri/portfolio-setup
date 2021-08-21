@@ -86,7 +86,6 @@ body {
 .card-image img {
   padding: 1px;
   width: 355px;
-  
 }
 
 .card-header {
@@ -95,10 +94,10 @@ body {
   line-height: 44px;
   margin-bottom: 20px;
   margin-top: 15px;
-  
 }
-.card-links{
-  display:inline-flex;
+
+.card-links {
+  display: inline-flex;
   padding: 1px;
   margin-bottom: 20px;
 }
@@ -118,17 +117,17 @@ body {
   line-height: 24px;
 }
 
-.lang-section{
-display: flex;
+.lang-section {
+  display: flex;
 }
+
 .card-lang {
   display: inline-flex;
   padding: 10px;
   justify-content: space-between;
   width: 45vw;
-  
-
 }
+
 .card-lang li {
   padding: 8px;
   list-style: none;
@@ -165,7 +164,7 @@ display: flex;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  margin-top : 114px
+  margin-top: 114px;
 }
 
 .about-para {
@@ -173,6 +172,7 @@ display: flex;
   line-height: 24px;
   font-weight: 400;
 }
+
 .langua {
   display: flex;
   flex-direction: column;
@@ -185,7 +185,7 @@ display: flex;
   border-radius: 8px;
 }
 
-.lang-item p{
+.lang-item p {
   font-size: 15px;
   align-self: center;
   padding-top: 14px;
@@ -215,7 +215,7 @@ display: flex;
   align-self: center;
   line-height: 52px;
   font-weight: 700;
-  color: ghostwhite
+  color: ghostwhite;
 }
 
 .contact-text {
