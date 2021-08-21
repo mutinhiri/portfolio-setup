@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-  display: inline- flex;
+  display: inline-flex;
   margin-top: 10px;
   margin-bottom: 1px;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .card-section {
-  display:flex;
+  display: flex;
   flex-direction: column;
   padding: 16px;
   margin-bottom: 90px;
@@ -186,7 +186,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 0px
+  margin-left: 1px
 }
 
 .lang-item {
@@ -194,7 +194,6 @@ body {
   background-color: rgba(247, 247, 249, 1);
   margin: 10px;
   border-radius: 8px;
-  
 }
 
 .lang-item p {
@@ -260,4 +259,3 @@ body {
   padding-left: 1px;
   margin-left: 1px;
 }
-
