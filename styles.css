@@ -4,15 +4,21 @@ body {
   padding: 24px;
   font-family: 'Poppins', sans-serif;
   background-color: rgba(255, 255, 255, 1);
-  display: grid;
+  display: flex;
   margin: 0;
+  flex-direction: column;
+}
+
+.project-section {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .header {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
   margin-top: 10px;
   margin-bottom: 1px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -22,6 +28,7 @@ body {
 .hamb {
   display: flex;
   justify-content: flex-end;
+  flex: 1;
 }
 
 .hamb img {
@@ -38,7 +45,7 @@ body {
 .intro h3 {
   font-size: 40px;
   line-height: 52px;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .welcome-section {
@@ -48,6 +55,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-top: 90px;
+  margin-bottom: 200px;
 }
 
 .social-media {
@@ -58,7 +66,7 @@ body {
   padding-top: 1px;
   margin: 1px;
   justify-content: space-between;
-  width: 150px;
+  width: 200px;
 }
 
 .social-media img {
@@ -74,7 +82,182 @@ body {
   font-weight: 500;
 }
 
+.card-section {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin-bottom: 90px;
+  border: 1px solid rgba(223, 225, 230, 1);
+  border-radius: 20px;
+}
+
+.card-image img {
+  padding: 1px;
+  width: 355px;
+}
+
+.card-header {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  margin-bottom: 1px;
+  margin-top: 15px;
+}
+
+.card-links {
+  display: inline-flex;
+  padding: 1px;
+  margin-bottom: 20px;
+}
+
+.card-links li {
+  padding-left: 9px;
+  list-style: none;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  color: rgba(122, 134, 154, 1);
+}
+
 .card-text {
-  font-size: 17px;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 24px;
+}
+
+.card-lang {
+  display: inline-flex;
+  padding: 1px;
+  justify-content: space-between;
+  width: 45vw;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.card-lang li {
+  padding: 9px;
+  list-style: none;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 10px;
+  background-color: rgba(235, 235, 255, 1);
+  color: rgba(96, 112, 255, 1);
+}
+
+.btn1 {
+  width: 30vw;
+  color: rgba(57, 109, 242, 1);
+  border-radius: 7px;
+  line-height: 50px;
+  background-color: white;
+  font-size: 17px;
+  border: 1px solid;
+}
+
+.btn2 {
+  width: 40vw;
+  margin-bottom: 60px;
+  margin-top: 34px;
+}
+
+.btn3 {
+  width: 40vw;
+}
+
+.about-me {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.about-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 114px;
+}
+
+.about-para {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.langua {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 1px;
+}
+
+.lang-item {
+  display: flex;
+  background-color: rgba(247, 247, 249, 1);
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.lang-item p {
+  font-size: 15px;
+  align-self: center;
+  padding-top: 14px;
+  margin-left: 14px;
+  font-weight: 500;
+}
+
+.item-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.contact {
+  background-image: url(img/Contact\ me.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-header {
+  margin-top: 100px;
+  justify-content: center;
+  font-size: 40px;
+  align-self: center;
+  line-height: 52px;
+  font-weight: 700;
+  color: ghostwhite;
+}
+
+.contact-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  align-self: center;
+  margin-bottom: 40px;
+  color: whitesmoke;
+}
+
+.contact-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.lang-arrow {
+  display: flex;
+}
+
+.la {
+  position: relative;
+  left: 130px;
+  margin-top: 15px;
+}
+
+.tools {
+  list-style: none;
+  padding-left: 1px;
+  margin-left: 1px;
 }
