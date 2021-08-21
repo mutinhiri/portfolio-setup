@@ -4,14 +4,18 @@ body {
   padding: 24px;
   font-family: 'Poppins', sans-serif;
   background-color: rgba(255, 255, 255, 1);
-  display: grid;
+  display: flex;
   margin: 0;
+  flex-direction: column;
+}
+
+.project-section {
+  display: grid;
   grid-template-columns: 1fr;
 }
 
 .header {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: inline- flex;
   margin-top: 10px;
   margin-bottom: 1px;
 }
@@ -77,8 +81,8 @@ body {
 }
 
 .card-section {
-  display: grid;
-  grid-template-columns: 1fr;
+  display:flex;
+  flex-direction: column;
   padding: 16px;
   margin-bottom: 90px;
   border: 1px solid rgba(223, 225, 230, 1);
@@ -181,6 +185,8 @@ body {
 .langua {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 0px
 }
 
 .lang-item {
@@ -188,6 +194,7 @@ body {
   background-color: rgba(247, 247, 249, 1);
   margin: 10px;
   border-radius: 8px;
+  
 }
 
 .lang-item p {
@@ -239,13 +246,12 @@ body {
 }
 
 .lang-arrow {
-  display: grid;
-  grid-template-columns: 1fr  1fr;
+  display: flex;
 }
 
 .la {
   position: relative;
-  left: 90px;
+  left: 130px;
   margin-top: 15px;
 }
 
@@ -254,3 +260,4 @@ body {
   padding-left: 1px;
   margin-left: 1px;
 }
+
