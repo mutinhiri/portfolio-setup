@@ -6,6 +6,7 @@ body {
   background-color: rgba(255, 255, 255, 1);
   display: grid;
   margin: 0;
+  grid-template-columns: 1fr;
 }
 
 .header {
@@ -48,6 +49,8 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-top: 90px;
+  border: 10px solid red;
+  margin-bottom: 138px;
 }
 
 .social-media {
@@ -74,7 +77,105 @@ body {
   font-weight: 500;
 }
 
+.card-section {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid brown;
+  padding: 16px
+}
+
+.card-image img {
+  padding: 1px;
+  width: 355px;
+  
+}
+
+.card-header {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  margin-bottom: 20px;
+  
+}
+.card-links{
+  display:inline-flex;
+  padding: 0px;
+  border: 2px solid green;
+  margin-bottom: 20px;
+}
+
+.card-links li{
+  padding-left: 9px;
+  list-style: none;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  color: rgba(122, 134, 154, 1);
+}
+
 .card-text {
+  font-weight: 400;
   font-size: 17px;
   line-height: 24px;
+}
+
+.lang-section{
+display: flex;
+}
+.card-lang {
+  display: inline-flex;
+  padding: 10px;
+  justify-content: space-between;
+  width: 45vw;
+  
+
+}
+.card-lang li {
+  padding: 8px;
+  list-style: none;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 10px;
+  background-color:rgba(235, 235, 255, 1);
+  color: rgba(96, 112, 255 ,1);
+}
+
+.btn1 {
+  width: 25vw;
+  color: rgba(57, 109, 242, 1);
+  border-radius: 7px;
+  line-height: 50px;
+  background-color: white;
+  font-size: 17px;
+}
+
+.btn2 {
+  width: 40vw;
+  margin-bottom: 60px;
+  margin-top: 34px;
+}
+
+.about-me {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  border: 10px solid gray;
+  padding-top: 200px;
+  margin-top: 40px;
+}
+
+.about-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.about-para {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.langua {
+  display: flex;
+  flex-direction: column;
 }
