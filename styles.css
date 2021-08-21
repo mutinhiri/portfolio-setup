@@ -36,10 +36,10 @@ body {
   align-items: center;
 }
 
-.intro h3 {
+.intro h3{
   font-size: 40px;
   line-height: 52px;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .welcome-section {
@@ -60,7 +60,7 @@ body {
   padding-top: 1px;
   margin: 1px;
   justify-content: space-between;
-  width: 150px;
+  width: 200px;
 }
 
 .social-media img {
@@ -77,10 +77,12 @@ body {
 }
 
 .card-section {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   padding: 16px;
   margin-bottom: 90px;
+  border: 1px solid rgba(223, 225, 230, 1);
+  border-radius: 20px;
 }
 
 .card-image img {
@@ -92,7 +94,7 @@ body {
   font-weight: 700;
   font-size: 34px;
   line-height: 44px;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
   margin-top: 15px;
 }
 
@@ -113,23 +115,21 @@ body {
 
 .card-text {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 24px;
-}
-
-.lang-section {
-  display: flex;
 }
 
 .card-lang {
   display: inline-flex;
-  padding: 10px;
-  justify-content: space-between;
+  padding: 1px;
+  justify-content:space-between;
   width: 45vw;
+  margin-top: 16px;
+  margin-bottom: 30px;
 }
 
 .card-lang li {
-  padding: 8px;
+  padding: 9px;
   list-style: none;
   font-size: 12px;
   line-height: 16px;
@@ -139,18 +139,23 @@ body {
 }
 
 .btn1 {
-  width: 25vw;
+  width: 30vw;
   color: rgba(57, 109, 242, 1);
   border-radius: 7px;
   line-height: 50px;
   background-color: white;
   font-size: 17px;
+  border: 1px solid ;
 }
 
 .btn2 {
   width: 40vw;
   margin-bottom: 60px;
   margin-top: 34px;
+}
+
+.btn3 {
+  width :40vw;
 }
 
 .about-me {
@@ -179,7 +184,7 @@ body {
 }
 
 .lang-item {
-  display: inline-flex;
+  display:flex;
   background-color: rgba(247, 247, 249, 1);
   margin: 10px;
   border-radius: 8px;
@@ -231,4 +236,21 @@ body {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
+}
+
+.lang-arrow {
+  display:grid;
+  grid-template-columns: 1fr  1fr
+}
+
+.la {
+  position: relative;
+  left: 90px;
+  margin-top: 15px;
+}
+
+.tools {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
 }

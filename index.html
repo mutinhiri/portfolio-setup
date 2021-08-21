@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
     </style>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
@@ -10,8 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 <body>
     <section class="">
@@ -41,7 +39,7 @@
         <div class="card-image">
             <img src="img/SnapshootPortfolio(1).png" alt="firstproject">
         </div>
-        <p class="card-header">Tonic</p>
+        <h2 class="card-header">Tonic</h2>
         <ul class="card-links">
             <li>CANOPY</li>
             <li> Black End Dev</li>
@@ -61,7 +59,7 @@
         <div class="card-image">
             <img src="img/SnapshootPortfolio(2).png" alt="firsroject">
         </div>
-        <p class="card-header">Multi-Post<br> Stories</p>
+        <h2 class="card-header">Multi-Post<br> Stories</h2>
         <ul class="card-links">
             <li>CANOPY</li>
             <li> Black End Dev</li>
@@ -81,7 +79,7 @@
         <div class="card-image">
             <img src="img/SnapshootPortfolio(3).png" alt="firsproject">
         </div>
-        <p class="card-header">Tonic</p>
+        <h2 class="card-header">Tonic</h2>
         <ul class="card-links">
             <li>CANOPY</li>
             <li> Black End Dev</li>
@@ -101,7 +99,7 @@
         <div class="card-image">
             <img src="img/SnapshootPortfolio(4).png" alt="firstoject">
         </div>
-        <p class="card-header">Multi-Post<br>Stories</p>
+        <h2 class="card-header">Multi-Post<br>Stories</h2>
         <ul class="card-links">
             <li>CANOPY</li>
             <li> Black End Dev</li>
@@ -131,32 +129,51 @@
             <li class="fa fa-facebook fa-2x"></li>
            </ul>
         <button class=" btn1 btn2">Get my resume</button>
-        <h2 class="item-header">Languages</h2>
-        <ul class="langua">
-            <li class="lang-item">
-                <img src="img/Ellipse1.png" alt="lang-icons">
-                <p>JavaScript</p>
+
+        <ul class="tools">
+            <li>
+                <div class="lang-arrow">
+                    <h3>Languages</h3>
+                    <i class="fa fa-angle-down fa-2x la"></i>
+                </div>
+                
+                <ul class=langua>
+                    <li class="lang-item">
+                        <img src="img/Ellipse1.png" alt="lang">
+                        <p>JavaScript</p>
+                    </li>
+                    <li class="lang-item">
+                        <img src="img/Ellipse1(1).png" alt="lang">
+                        <p>HTML</p>
+                    </li>
+                    <li class="lang-item">
+                        <img src="img/Ellipse1(2).png" alt="lang"> 
+                        <p>CSS</p> 
+                    </li>
+                </ul>
             </li>
-            <li class="lang-item">
-                <img src="img/Ellipse1(1).png" alt="lang">
-                <p>HTML</p>
+            <li>
+                <div class="lang-arrow">
+                    <h3>Frameworks</h3>
+                    <i class="fa fa-angle-right fa-2x la"></i>
+                </div>
+                <ul>
+                    <li>frame1</li>
+                    <li>frame2</li>
+                    <li>frame3</li>
+                </ul>
             </li>
-            <li class="lang-item">
-                <img src="img/Ellipse1(2).png" alt="lang"> 
-                <p>CSS</p> 
+            <li>
+                <div class="lang-arrow">
+                    <h3>Skills</h3>
+                    <i class="fa fa-angle-right fa-2x la"></i>
+                </div>
+                <ul>
+                    <li>Skill1</li>
+                    <li>Skill2</li>
+                    <li>Skill3</li>
+                </ul>
             </li>
-        </ul>
-        <h2 class="item-header">Frameworks</h2>
-        <ul>
-            <li>tool1</li>
-            <li>tool2</li>
-            <li>tool3</li>
-        </ul>
-        <h2 class="item-header">Skills</h2>
-        <ul>
-            <li>skill1</li>
-            <li>skill2</li>
-            <li>skill3</li>
         </ul>
     </section>
     <section class="contact">
@@ -165,7 +182,7 @@
         <input class="contact-input" type="text" value="Mafuta"><br><br>
         <input class="contact-input" type="text" value="email@adress.com"><br><br>
         <textarea class="contact-input" name="text" placeholder="write your message here" cols="30" rows="10"></textarea>
-        <button class="btn1">Get in Touch</button>
+        <button class="btn1 btn3">Get in Touch</button>
     </section>
 </body>
 </html>
