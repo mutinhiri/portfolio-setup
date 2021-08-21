@@ -43,7 +43,7 @@ body {
 
 .welcome-section {
   background-image: url(img/header-shapes\ mobile@2x.png);
-  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
