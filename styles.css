@@ -102,7 +102,7 @@ body {
   margin-bottom: 20px;
 }
 
-.card-links li{
+.card-links li {
   padding-left: 9px;
   list-style: none;
   font-size: 13px;
@@ -134,8 +134,8 @@ body {
   font-size: 12px;
   line-height: 16px;
   border-radius: 10px;
-  background-color:rgba(235, 235, 255, 1);
-  color: rgba(96, 112, 255 ,1);
+  background-color: rgba(235, 235, 255, 1);
+  color: rgba(96, 112, 255, 1);
 }
 
 .btn1 {
