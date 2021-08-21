@@ -36,7 +36,7 @@ body {
   align-items: center;
 }
 
-.intro h3{
+.intro h3 {
   font-size: 40px;
   line-height: 52px;
   font-weight: bold;
@@ -122,7 +122,7 @@ body {
 .card-lang {
   display: inline-flex;
   padding: 1px;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 45vw;
   margin-top: 16px;
   margin-bottom: 30px;
@@ -145,7 +145,7 @@ body {
   line-height: 50px;
   background-color: white;
   font-size: 17px;
-  border: 1px solid ;
+  border: 1px solid;
 }
 
 .btn2 {
@@ -155,7 +155,7 @@ body {
 }
 
 .btn3 {
-  width :40vw;
+  width: 40vw;
 }
 
 .about-me {
@@ -184,7 +184,7 @@ body {
 }
 
 .lang-item {
-  display:flex;
+  display: flex;
   background-color: rgba(247, 247, 249, 1);
   margin: 10px;
   border-radius: 8px;
@@ -239,8 +239,8 @@ body {
 }
 
 .lang-arrow {
-  display:grid;
-  grid-template-columns: 1fr  1fr
+  display: grid;
+  grid-template-columns: 1fr  1fr;
 }
 
 .la {
@@ -251,6 +251,6 @@ body {
 
 .tools {
   list-style: none;
-  padding-left: 0px;
-  margin-left: 0px;
+  padding-left: 1px;
+  margin-left: 1px;
 }
