@@ -49,8 +49,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-top: 90px;
-  border: 10px solid red;
-  margin-bottom: 138px;
+  margin-bottom: 200px;
 }
 
 .social-media {
@@ -80,8 +79,8 @@ body {
 .card-section {
   display: flex;
   flex-direction: column;
-  border: 10px solid brown;
-  padding: 16px
+  padding: 16px;
+  margin-bottom: 90px;
 }
 
 .card-image img {
@@ -95,12 +94,12 @@ body {
   font-size: 34px;
   line-height: 44px;
   margin-bottom: 20px;
+  margin-top: 15px;
   
 }
 .card-links{
   display:inline-flex;
-  padding: 0px;
-  border: 2px solid green;
+  padding: 1px;
   margin-bottom: 20px;
 }
 
@@ -159,16 +158,14 @@ display: flex;
   padding: 24px;
   display: flex;
   flex-direction: column;
-  border: 10px solid gray;
-  padding-top: 200px;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  padding-top: 20px;
 }
 
 .about-header {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin-top : 114px
 }
 
 .about-para {
