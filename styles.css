@@ -162,6 +162,7 @@ display: flex;
   border: 10px solid gray;
   padding-top: 200px;
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .about-header {
@@ -178,4 +179,59 @@ display: flex;
 .langua {
   display: flex;
   flex-direction: column;
+}
+
+.lang-item {
+  display: inline-flex;
+  background-color: rgba(247, 247, 249, 1);
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.lang-item p{
+  font-size: 15px;
+  align-self: center;
+  padding-top: 14px;
+  margin-left: 14px;
+  font-weight: 500;
+}
+
+.item-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.contact {
+  background-image: url(img/Contact\ me.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-header {
+  margin-top: 100px;
+  justify-content: center;
+  font-size: 40px;
+  align-self: center;
+  line-height: 52px;
+  font-weight: 700;
+  color: ghostwhite
+}
+
+.contact-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  align-self: center;
+  margin-bottom: 40px;
+  color: whitesmoke;
+}
+
+.contact-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
 }
