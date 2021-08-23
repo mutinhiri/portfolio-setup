@@ -135,6 +135,7 @@ body {
 
 .card-lang li {
   float: left;
+  margin: 15px;
   padding: 9px;
   list-style: none;
   font-size: 12px;
