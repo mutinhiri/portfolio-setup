@@ -126,7 +126,6 @@ body {
 }
 
 .card-lang {
-  display: inline-flex;
   padding: 1px;
   justify-content: space-between;
   width: 45vw;
@@ -135,6 +134,7 @@ body {
 }
 
 .card-lang li {
+  float: left;
   padding: 9px;
   list-style: none;
   font-size: 12px;
