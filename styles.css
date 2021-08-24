@@ -222,6 +222,11 @@ body {
   flex-direction: column;
 }
 
+.contact-form{
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-header {
   margin-top: 100px;
   justify-content: center;
