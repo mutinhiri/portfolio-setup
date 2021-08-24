@@ -145,6 +145,11 @@ body {
   color: rgba(96, 112, 255, 1);
 }
 
+.btn1:hover{
+  background-color: darkslateblue;
+  text-decoration-line: underline;
+}
+
 .btn1 {
   width: 30vw;
   color: rgba(57, 109, 242, 1);
@@ -154,6 +159,8 @@ body {
   font-size: 17px;
   border: 1px solid;
 }
+
+
 
 .btn2 {
   width: 40vw;
