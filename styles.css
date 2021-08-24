@@ -145,11 +145,10 @@ body {
   color: rgba(96, 112, 255, 1);
 }
 
-.btn1:hover{
+.btn1:hover {
   background-color: darkslateblue;
   text-decoration-line: underline;
 }
-
 
 .btn1 {
   width: 30vw;
@@ -160,8 +159,6 @@ body {
   font-size: 17px;
   border: 1px solid;
 }
-
-
 
 .btn2 {
   width: 40vw;
@@ -230,7 +227,7 @@ body {
   flex-direction: column;
 }
 
-.contact-form{
+.contact-form {
   display: flex;
   flex-direction: column;
 }
