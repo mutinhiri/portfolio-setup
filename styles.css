@@ -295,7 +295,6 @@ body {
     background: #fff;
     border: 2px solid whitesmoke;
     border-radius: 1px 1px 1px 50px;
-
   }
 
   .header {
@@ -320,7 +319,7 @@ body {
     line-height: 20px;
     font-weight: 700;
   }
-  
+
   .hamburger {
     display: none;
   }
