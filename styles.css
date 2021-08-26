@@ -333,7 +333,7 @@ body {
     margin-top: 100px;
   }
 
-  .social-media {
+  .soshari-media {
     padding-left: 260px;
   }
 
@@ -377,6 +377,22 @@ body {
  }
  .rev {
    order: 1;
+ }
+
+ .about-me {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+ }
+
+ .about1 {
+   
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+
+ .tools {
+   flex: 1;
  }
 }
     
