@@ -26,6 +26,28 @@ body {
   font-size: 18px;
 }
 
+.intro h3 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+.intro1{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  color: #172B4D;
+  transition: 600ms ease-in;
+  display: block;
+}
+
+.intro:hover .intro1 {
+  color: #7f8cff;
+font-size: 44px
+}
 .link-items {
   display: none;
 }
@@ -47,11 +69,7 @@ body {
   align-items: center;
 }
 
-.intro h3 {
-  font-size: 40px;
-  line-height: 52px;
-  font-weight: bold;
-}
+
 
 .welcome-section {
   background-image: url(img/header-shapes\ mobile@2x.png);
@@ -409,5 +427,8 @@ flex-direction: row;
    flex: 1;
    padding-right: 80px;
  }
+
+
 }
+
     
