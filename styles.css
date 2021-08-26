@@ -25,6 +25,10 @@ body {
   font-size: 18px;
 }
 
+.link-items {
+  display: none;
+}
+
 .hamb {
   display: flex;
   justify-content: flex-end;
@@ -281,4 +285,67 @@ body {
   list-style: none;
   padding-left: 1px;
   margin-left: 1px;
+}
+
+@media only screen and (min-width: 970px) {
+  body {
+    display: flex;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .link-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    list-style: none;
+  }
+
+  .link-items li {
+    padding-left: 32px;
+  }
+
+  .logo {
+    padding-left: 155px;
+    color: rgba(96, 112, 255, 1);
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  
+  .hamburger {
+    display: none
+  }
+
+  .welcome-section {
+    background-image: url(img/Header\ bg.png);
+    background-size: cover;
+  }
+
+  .intro {
+    padding-left: 260px;
+    margin-top: 100px;
+  }
+
+  .social-media {
+    padding-left: 260px;
+  }
+
+  .card-section {
+    display: flex;
+    flex-direction: row;
+    border:  1px solid #dfe1e6;
+    
+  }
+
+  .section-content {
+    border: 1px solid gray;
+    margin: 0px
+  }
+  .card-image {
+    margin-right: 20px;
+    
+  }
 }
