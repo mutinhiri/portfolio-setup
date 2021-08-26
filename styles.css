@@ -287,9 +287,12 @@ body {
   margin-left: 1px;
 }
 
+
 @media only screen and (min-width: 970px) {
-  body {
-    display: flex;
+  .first-page {
+   
+    border: 2px solid whitesmoke;
+    border-radius: 1px 1px 0px 50px; 
   }
 
   .header {
@@ -322,6 +325,7 @@ body {
   .welcome-section {
     background-image: url(img/Header\ bg.png);
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .intro {
@@ -337,15 +341,42 @@ body {
     display: flex;
     flex-direction: row;
     border:  1px solid #dfe1e6;
+    margin: 142px;
     
   }
 
   .section-content {
     border: 1px solid gray;
-    margin: 0px
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
   }
   .card-image {
     margin-right: 20px;
-    
   }
+  .img-card {
+    height: 448px;
+    width: 544px;
+    border-radius: 8px;
+  }
+
+ .bt6 {
+   width: 100px;
+   height: 30px;
+   color: rgba(57, 109, 242, 1);
+   line-height: 24px;
+   border: 1px solid blue;
+   border-radius: 7px;
+   background-color: white;
+   margin-left: 18px;
+ }
+ 
+ .btn1 {
+   display: none;
+ }
+ .rev {
+   order: 1;
+ }
 }
+    
