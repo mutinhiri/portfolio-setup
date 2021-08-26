@@ -6,7 +6,7 @@ body {
   display: flex;
   margin: 0;
   flex-direction: column;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .project-section {
@@ -32,22 +32,23 @@ body {
   font-weight: bold;
 }
 
-.intro1{
+.intro1 {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   transition: 600ms ease-in;
   display: block;
 }
 
 .intro:hover .intro1 {
   color: #7f8cff;
-font-size: 44px
+  font-size: 44px;
 }
+
 .link-items {
   display: none;
 }
@@ -69,8 +70,6 @@ font-size: 44px
   align-items: center;
 }
 
-
-
 .welcome-section {
   background-image: url(img/header-shapes\ mobile@2x.png);
   background-size: cover;
@@ -91,14 +90,12 @@ font-size: 44px
   justify-content: space-between;
   width: 200px;
   transition: width 2s, margin 2s, transform 2s;
-
 }
 
 .social-media:hover {
   width: 230px;
   margin: 10px;
-  transform:translateX(100%)
-
+  transform: translateX(100%);
 }
 
 .social-media img {
@@ -318,12 +315,11 @@ font-size: 44px
   margin-left: 1px;
 }
 
-
 @media only screen and (min-width: 970px) {
   .first-page {
-    background: #FFFFFF;
+    background: #fff;
     border: 2px solid whitesmoke;
-    border-radius: 1px 1px 0px 50px; 
+    border-radius: 1px 1px 0 50px;
   }
 
   .header {
@@ -333,7 +329,7 @@ font-size: 44px
 
   .link-items {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     list-style: none;
   }
 
@@ -348,9 +344,9 @@ font-size: 44px
     line-height: 20px;
     font-weight: 700;
   }
-  
+
   .hamburger {
-    display: none
+    display: none;
   }
 
   .welcome-section {
@@ -370,26 +366,28 @@ font-size: 44px
 
   .card-section {
     justify-self: center;
-    background-color: #FFFFFF;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     border: 1px solid #dfe1e6;
     max-width: 92%;
-    
   }
-  .about-section{
-    background-color: #FFFFFF;
+
+  .about-section {
+    background-color: #fff;
   }
 
   .section-content {
     margin: 66px;
-    padding: 0px;
+    padding: 0;
     display: flex;
     flex-direction: column;
   }
+
   .card-image {
     margin-right: 20px;
   }
+
   .img-card {
     height: 448px;
     width: 544px;
@@ -410,34 +408,30 @@ font-size: 44px
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-}
- .btn1 {
-   display: none;
- }
- .rev {
-   order: 1;
- }
-
- .about-me {
-   display: flex;
-flex-direction: row;
-   
- }
-
- .about1 {
-   
-   display: flex;
-   flex-direction: column;
-   max-width: 554px;
-   padding-left: 80px;
   }
 
- .tools {
-   flex: 1;
-   padding-right: 80px;
- }
+  .btn1 {
+    display: none;
+  }
 
+  .rev {
+    order: 1;
+  }
 
+  .about-me {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 554px;
+    padding-left: 80px;
+  }
+
+  .tools {
+    flex: 1;
+    padding-right: 80px;
+  }
 }
-
-    
