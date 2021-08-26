@@ -90,6 +90,15 @@ font-size: 44px
   margin: 1px;
   justify-content: space-between;
   width: 200px;
+  transition: width 2s, margin 2s, transform 2s;
+
+}
+
+.social-media:hover {
+  width: 230px;
+  margin: 10px;
+  transform:translateX(100%)
+
 }
 
 .social-media img {
