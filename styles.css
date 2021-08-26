@@ -155,6 +155,10 @@ body {
   border: 1px solid;
 }
 
+.btn1:hover {
+  text-decoration-line: underline;
+}
+
 .btn2 {
   width: 40vw;
   margin-bottom: 60px;
@@ -162,7 +166,16 @@ body {
 }
 
 .btn3 {
-  width: 40vw;
+  width: 140px;
+  height: 48px;
+  padding: 12px 16px;
+  align-items: center;
+  color: rgba(96, 112, 255, 1);
+  font-size: 17px;
+}
+
+.btn3:hover {
+  text-decoration-line: underline;
 }
 
 .about-me {
@@ -214,10 +227,17 @@ body {
 }
 
 .contact {
-  background-image: url(img/Contact\ me.png);
+  background-image: url(img/header-shapes\ mobile@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #6070ff;
+  transform: matrix(1, 0, 0, 1, 0, 0);
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form {
   display: flex;
   flex-direction: column;
 }
@@ -238,7 +258,7 @@ body {
   line-height: 28px;
   align-self: center;
   margin-bottom: 40px;
-  color: whitesmoke;
+  color: rgba(235, 235, 255, 1);
 }
 
 .contact-input {

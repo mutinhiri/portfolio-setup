@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
     </style>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
@@ -176,14 +176,21 @@
             </li>
         </ul>
     </section>
-    <section class="contact">
+
+    <footer class="contact">
         <p class="contact-header">Contact me</p>
         <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
-        <input class="contact-input" type="text" value="Mafuta"><br><br>
-        <input class="contact-input" type="text" value="email@adress.com"><br><br>
-        <textarea class="contact-input" name="text" placeholder="write your message here" cols="30" rows="10"></textarea>
-        <button class="btn1 btn3">Get in Touch</button>
-    </section>
+        <form class="contact-form" action="https://formspree.io/f/mleaokev" method="POST">
+        <input class="contact-input" type="text" name="name-input" placeholder="Enter name here" maxlength="30" required>
+        <input class="contact-input" type="email" placeholder="Enter email address here" name="email-input" required>
+        <textarea class="contact-input" name="textarea-input" maxlength="500" placeholder="write your message here" cols="30" rows="10" required></textarea>
+        <button class="btn3">
+            <span class="btn-text">Get it Touch</span>
+        </button>
+        </form>
+        
+    </footer>
+
    </div>
     
 </body>
