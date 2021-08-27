@@ -11,7 +11,7 @@ body {
 .project-section {
   display: grid;
   grid-template-columns: 1fr;
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 .header {
@@ -132,9 +132,8 @@ body {
 .card-lang {
   padding: 1px;
   justify-content: space-between;
-  width: 45vw;
-  margin-top: 16px;
-  margin-bottom: 30px;
+  width: 100vw;
+  overflow: hidden;
 
 }
 
