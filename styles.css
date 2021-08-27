@@ -290,7 +290,7 @@ body {
   margin-left: 1px;
 }
 
-@media only screen and (min-width: 970px) {
+/*@media only screen and (min-width: 970px) {
   .first-page {
     background: #fff;
     border: 2px solid whitesmoke;
@@ -353,7 +353,7 @@ body {
   }
 
   .section-content {
-    margin: 66px;
+    margin: 2px;
     padding: 1px;
     display: flex;
     flex-direction: column;
