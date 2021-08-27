@@ -290,7 +290,7 @@ body {
   margin-left: 1px;
 }
 
-/*@media only screen and (min-width: 970px) {
+@media only screen and (min-width: 970px) {
   .first-page {
     background: #fff;
     border: 2px solid whitesmoke;
@@ -346,6 +346,7 @@ body {
     flex-direction: row;
     border: 1px solid #dfe1e6;
     max-width: 92%;
+    margin: 90px;
   }
 
   .about-section {
@@ -361,6 +362,8 @@ body {
 
   .card-image {
     margin-right: 20px;
+    flex: ;
+    
   }
 
   .img-card {
@@ -369,7 +372,7 @@ body {
     border-radius: 8px;
   }
 
-  .bt6 {
+  .btn1 {
     width: 124px;
     height: 48px;
     color: rgba(57, 109, 242, 1);
@@ -414,7 +417,7 @@ body {
   }
 
   .hide {
-    display: none;
+    display:
   }
 
   .contact {
