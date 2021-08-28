@@ -467,5 +467,9 @@ body {
   .contact-input {
     margin-bottom: 17px;
   }
+
+  .ipin {
+    width: 50px;
+  }
 }
 
