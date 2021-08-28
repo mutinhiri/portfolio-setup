@@ -282,11 +282,12 @@ body {
   margin-left: 1px;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 1000px) {
 
   body {
     padding: 1px;
     margin: 1px;
+    overflow-x: hidden;
   }
   
   .first-page {
