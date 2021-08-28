@@ -267,7 +267,7 @@ body {
 }
 
 .lang-arrow {
-   display: flex;
+  display: flex;
 }
 
 .la {
@@ -288,6 +288,7 @@ body {
     padding: 1px;
     margin: 1px;
   }
+  
   .first-page {
     background: #fff;
     border: 2px solid whitesmoke;
@@ -330,17 +331,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
+  
   .intro {
     margin-top: 100px;
     padding-left: 260px;
     padding-right: 260px;
   }
-
+  
   .soshari {
     padding-left: 260px;
   }
-
+  
   .card-section {
     display: grid;
     grid-template-columns: minmax(0,1fr) minmax(0, 1fr); 
@@ -351,33 +352,34 @@ body {
     justify-content: space-between;
     background-color: white;
   }
+  
   .card-para {
     margin-left: 10px;
     padding: 18px;
   }
-
+  
   .card-image {
     margin: 10px;
   }
-
+  
   .card-image img {
     width: 544px;
     height: 488px;
   }
-
+  
   .img-card {
     width: 544px;
-    height: 488px;
-    
+    height: 488px;  
   }
+  
   .btn1 {
     width: 120px;
   }
-
+  
   .se {
     order: 1;
   }
-
+  
   .about-me {
     display: grid;
     grid-template-columns: minmax(0,1fr) minmax(0,1fr);
@@ -386,31 +388,33 @@ body {
     width: 1440px;
     max-height: 916px;
   }
-
+  
   .btnp {
-    width: 160px;
-    
+    width: 160px;  
   }
+  
   .about-first {
     margin-left: 142px;
     padding-right: 10px;
   }
-
+  
   .la {
     position: relative;
     left: 418px;
     margin-top: 15px;
   }
+  
   .zi {
     left: 490px;
   }
-
+  
   .langua {
     width: 60vw;
     display: grid;
     grid-template-columns: minmax(0,1fr)1fr 1fr 1fr;
     margin: 0px;
   }
+  
   .lang-item {
     display: flex;
     flex-direction: column;
@@ -418,6 +422,7 @@ body {
     height: 120px;
     padding: 10px;
   }
+  
   .contact {
     display: flex;
     flex-direction: column;
@@ -426,6 +431,7 @@ body {
     border-radius: 90px 0px 0px 0px;
     height: 846px;
   }
+  
   .contact-header {
     flex: 1;
     padding-left: 400px;
@@ -435,24 +441,23 @@ body {
     line-height: 52px;
     justify-content: center;
   }
-
+  
   .contact-text {
     padding-right: 400px;
     padding-left: 400px;
-
   }
-
+  
   .contact-form {
     justify-content: center;
     padding-left: 400px;
     padding-right: 400px;
   }
+  
   .rty{
     margin-left: 170px;
   }
-
+  
   .contact-input {
     margin-bottom: 17px;
   }
-
 }
