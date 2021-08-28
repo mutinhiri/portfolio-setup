@@ -58,6 +58,10 @@ body {
   margin-bottom: 200px;
 }
 
+.link-items {
+  display: none;
+}
+
 .social-media {
   display: flex !important;
   align-content: flex-start;
