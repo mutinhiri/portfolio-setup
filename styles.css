@@ -411,7 +411,7 @@ body {
   
   .langua {
     display: grid;
-    grid-template-columns: minmax(0,100px) minmax(0, 120px) 1fr;
+    grid-template-columns: minmax(0,130px) minmax(0, 130px) 1fr;
     margin: 0px;
   }
   
