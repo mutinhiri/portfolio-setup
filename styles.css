@@ -410,18 +410,20 @@ body {
   }
   
   .langua {
-    width: 60vw;
     display: grid;
-    grid-template-columns: minmax(0,1fr)1fr 1fr 1fr;
+    grid-template-columns: minmax(0,100px) minmax(0, 120px) 1fr;
     margin: 0px;
   }
   
   .lang-item {
     display: flex;
     flex-direction: column;
-    width: 122px;
-    height: 120px;
-    padding: 10px;
+    width: 70px;
+    height: 70px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    margin: 10px;
+    
   }
   
   .contact {
@@ -461,4 +463,8 @@ body {
   .contact-input {
     margin-bottom: 17px;
   }
+}
+
+.ipin {
+  width: 53px;
 }
