@@ -130,12 +130,11 @@ body {
 }
 
 .card-lang {
-  display: inline-flex;
+  display: flex;
   padding: 1px;
-  justify-content: space-between;
   max-width: 100vw;
   margin-top: 10px;
-  margin-bottom: 77px;
+  margin-bottom: 37px;
 }
 
 .card-lang li {
@@ -146,6 +145,7 @@ body {
   border-radius: 10px;
   background-color: rgba(235, 235, 255, 1);
   color: rgba(96, 112, 255, 1);
+  margin-left: 20px;
 }
 
 .btn1 {
@@ -420,7 +420,7 @@ body {
   
   .contact-header {
     flex: 1;
-    padding-left: 400px;
+    padding-left: 623px;
     padding-right: 400px;
     font-weight: 700;
     font-size: 40px;
@@ -429,7 +429,7 @@ body {
   }
   
   .contact-text {
-    padding-right: 400px;
+    padding-right: 253px;
     padding-left: 400px;
   }
   
@@ -440,14 +440,21 @@ body {
   }
   
   .rty{
-    margin-left: 170px;
+    margin-left: 235px;
   }
   
   .contact-input {
     margin-bottom: 17px;
+    width: 447px;
+    padding-left: 2px;
+    margin-left: 95px;
   }
 
   .ipin {
     width: 50px;
+  }
+
+  .btn3 {
+    width: 9vw;
   }
 }
