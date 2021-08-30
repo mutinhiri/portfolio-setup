@@ -266,7 +266,6 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
-
   body {
     padding: 1px;
     margin: 1px;
@@ -355,7 +354,7 @@ body {
     width: 544px;
     height: 488px;
   }
-  
+     
   .btn1 {
     width: 120px;
   }
@@ -363,7 +362,7 @@ body {
   .se {
     order: 1;
   }
- 
+
   .about-me {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -381,17 +380,17 @@ body {
     margin-left: 142px;
     padding-right: 10px;
   }
- 
+
   .la {
     position: relative;
     left: 418px;
     margin-top: 15px;
   }
- 
+
   .zi {
     left: 490px;
   }
- 
+
   .langua {
     display: grid;
     grid-template-columns: minmax(0, 130px) minmax(0, 130px) 1fr;
@@ -407,7 +406,7 @@ body {
     padding-right: 40px;
     margin: 10px;   
   }
-
+  
   .contact {
     display: flex;
     flex-direction: column;
@@ -452,7 +451,7 @@ body {
   .ipin {
     width: 50px;
   }
-  
+
   .btn3 {
     width: 9vw;
   }
