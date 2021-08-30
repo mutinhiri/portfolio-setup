@@ -354,7 +354,7 @@ body {
     width: 544px;
     height: 488px;
   }
-     
+
   .btn1 {
     width: 120px;
   }
@@ -404,9 +404,9 @@ body {
     height: 70px;
     padding-bottom: 40px;
     padding-right: 40px;
-    margin: 10px;   
+    margin: 10px;
   }
-  
+
   .contact {
     display: flex;
     flex-direction: column;
