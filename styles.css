@@ -298,7 +298,16 @@ body {
   opacity: 0.96;
 }
 
-.welcome-page {
+.header{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  background: #fff;
+  width: 100%;
+  height: 50px;
   opacity: 0.96;
   z-index: 1;
 }
