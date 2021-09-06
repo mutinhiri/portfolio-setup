@@ -3,7 +3,7 @@ let ham = document.querySelector(".ham")
 let xIcon = document.querySelector(".xIcon")
 let menuIcon = document.querySelector(".menuIcon")
 
-ham.addEventListener("click", toggleMenu)
+
 
 function toggleMenu() {
   if (menu.classList.contains("showMenu")) {
@@ -17,10 +17,12 @@ function toggleMenu() {
   }
 }
 
-var menuLinks = document.querySelectorAll(".menuLink")
+ham.addEventListener("click", toggleMenu);
+
+const menuLinks = document.querySelectorAll(".menuLink");
 
 menuLinks.forEach(
-  function (menuLink) {
-    menuLink.addEventListener("click", toggleMenu)
+  (menuLink) => {
+    menuLink.addEventListener("click", toggleMenu);
   }
 )
