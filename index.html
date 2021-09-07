@@ -8,26 +8,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Portfolio</title>
+    <title>Mutinhiri's Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
 </head>
 <body>
 
    <div class="first-page">
-    <section class="">
+    <header class="welcome-page">
         <nav class="header">
             <p class="logo">Bunbee</p>
-            <a class="hamburger" href="#"><img src="img/Union.png" alt="img"></a>
+            
             <ul class="link-items">
                 <li>Portfolio</li>
                 <li>About</li>
                 <li>Contact</li>
             </ul>
+            <button class="ham" type="button">
+                <span class="menuIcon">
+                    <i class="hamburger"><img src="img/Union.png" alt="drop-down menu" id="burger"></i>
+                </span>
+                <span class="xIcon">
+                  <i class="x" ><img src="img/xIcon.svg" alt="x icon"></i>
+                </span>
+              </button>
+              <ul class="menu">
+                <li><a class="menuLink" href="#portfolio">Portfolio</a></li>
+                <li><a class="menuLink" href="#about">About</a></li>
+                <li><a class="menuLink" href="#contact">Contact</a></li>
+              </ul>
         </nav>
-    </section>
+    </header>
     <section class="welcome-section">
        <div class="intro">
-           <h3 class="intro1">I'm Bunbee<br>Glad to see you!</h3>
+           <h1 class="intro1">I'm Bunbee<br>Glad to see you!</h1>
             <p class="card-text">I'm a software devoloper! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, dont hesitate to contact me.</p>
             <p class="connect">LET'S CONNECT</p>
        </div>
@@ -42,9 +55,9 @@
    </div>
 
    
-    <section class="card-section">
+    <section class="card-section" id="portfolio">
         <section class="card-image">
-            <img class="img-card" src="img/SnapshootPortfolio(1).png" alt="firstproject">
+            <img class="img-card" src="img/SnapshootPortfolio(1).png" alt="first project card">
         </section>
         <section class="card-para">
             <h2 class="card-header">Tonic</h2>
@@ -66,7 +79,7 @@
 
     <section class="card-section">
         <section class="card-image se">
-            <img class="img-card" src="img/SnapshootPortfolio(2).png" alt="firsroject">
+            <img class="img-card" src="img/SnapshootPortfolio(2).png" alt="second project">
         </section>
         <section class="card-para">
             <h2 class="card-header">Multi-Post<br> Stories</h2>
@@ -87,7 +100,7 @@
 
     <section class="card-section">
         <section class="card-image">
-            <img class="img-card" src="img/SnapshootPortfolio(3).png" alt="firsproject">
+            <img class="img-card" src="img/SnapshootPortfolio(3).png" alt="third project">
         </section>
         <section>
             <h2 class="card-header">Tonic</h2>
@@ -108,7 +121,7 @@
 
     <section class="card-section">
         <section class="card-image se">
-            <img class="img-card " src="img/SnapshootPortfolio(4).png" alt="firstoject">
+            <img class="img-card " src="img/SnapshootPortfolio(4).png" alt="fourth project">
         </section>
         <section>
             <h2 class="card-header">Multi-Post<br>Stories</h2>
@@ -126,9 +139,9 @@
             <button class="btn1">See Project</button>
         </section>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about">
        <section class="about-first">
-            <h1 class="about-header">About<br> Myself</h1>
+            <h2 class="about-header">About<br> Myself</h2>
             <p class="about-para"> Hello I'm a software devoloper! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, dont hesitate to contact me.</p>
             <p class="connect">LET'S CONNECT</p>
             <ul class="social-media">
@@ -181,7 +194,7 @@
        </section>
     </section>
 
-    <footer class="contact">
+    <footer class="contact" id="contact">
         <section class="footer-text">
             <h2 class="contact-header">Contact me</h2>
             <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
@@ -200,6 +213,6 @@
       
      
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
