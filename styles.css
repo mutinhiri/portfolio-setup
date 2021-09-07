@@ -22,7 +22,7 @@ body {
   display: none;
 }
 
-.menu { 
+.menu {
   position: fixed;
   left: 0;
   right: 0;
@@ -503,7 +503,7 @@ li {
   .btn3 {
     width: 9vw;
   }
-  
+
   .ham {
     display: none;
   }
