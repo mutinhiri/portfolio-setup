@@ -5,7 +5,7 @@ let menuIcon = document.querySelector(".menuIcon")
 
 
 
-function toggleMenu() {
+const toggleMenu = () => {
   if (menu.classList.contains("showMenu")) {
     menu.classList.remove("showMenu");
     xIcon.style.display = "none";
