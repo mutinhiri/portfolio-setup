@@ -268,43 +268,44 @@ body {
 .ham {
   position: fixed;
   z-index: 100;
-  top: 1rem;
+  top: 0;
   right: 1rem;
   width: 3rem;
   height: 3rem;
-  border: black solid 1px;
-  background: #fff;
+  display: block;
+  border:none;
+
+  /* border: black solid 1px; */
+  background:none;
   cursor: pointer;
 }
 
 .menu {
   position: fixed;
-  top: 0;
-  display: flex;
   justify-content: space-between;
   align-items: center;
+
   left: 0;
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 50px;
-  background: #E5E5E5;
+  height: 100vh;
+  background: blue;
   color: white;
   transform: translateY(-100%);
   transition: transform 0.2s;
   list-style: none;
-  padding-top: 4rem;
   display: block;
   opacity: 0.96;
 }
 
 .header{
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0 1rem 1rem 1rem;
   background: #fff;
   width: 100%;
   height: 50px;
@@ -324,14 +325,10 @@ body {
 .xIcon,
   .menuIcon{
     display: block;
-    background-color: #fff;
+    margin-top: 3rem;
+
   }
 
-  .ham{
-    display: block;
-    background-color: #E5E5E5;
-    border:none;
-  }
 
   .ham button {
     background-color: #fff;
