@@ -16,7 +16,7 @@
    <div class="first-page">
     <header class="welcome-page">
         <nav class="header">
-            <p class="logo">Bunbee</p>
+            <p class="logo" id="logo" >Bunbee</p>
             
             <ul class="link-items">
                 <li>Portfolio</li>
@@ -38,7 +38,7 @@
               </ul>
         </nav>
     </header>
-    <section class="welcome-section">
+    <section class="welcome-section main">
        <div class="intro">
            <h1 class="intro1">I'm Bunbee<br>Glad to see you!</h1>
             <p class="card-text">I'm a software devoloper! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, dont hesitate to contact me.</p>
@@ -54,9 +54,12 @@
     </section>
    </div>
 
+
+
+   <div class="main">
    
-    <section class="card-section" id="portfolio">
-        <section class="card-image">
+    <section class="card-section work" id="portfolio">
+                <section class="card-image">
             <img class="img-card" src="img/SnapshootPortfolio(1).png" alt="first project card">
         </section>
         <section class="card-para">
@@ -66,18 +69,50 @@
                 <li> Black End Dev</li>
                 <li>2015</li>
             </ul>
+            <img src="img/Snapshoot Portfolio.png" alt="">
             <p class="card-text">A daily selection of privately personalised reads; no accounts or sign-ups required</p>
             <ul class="card-lang">
                 <li>Html</li>
                 <li>JavaScript</li>
                 <li>css</li>
             </ul>
-            <button class="btn1">See Project</button>
+            <button class="btn1" id="myBtn1" >See Project</button>
         </section>
       
     </section>
+    <div id="myModal" class="modal">
+        <div class="modal-container">
+          <div class="modal-content">
+            <div class="modal-title">
+              <div class="flex">
+                <h1 id="modalTitle">Title</h1>
+    
+                <span class="xp">&times;</span>
+                </div>
+    
+              <div id="modalSubt" class="modal-nav dev"></div>
+                <img id="modalImg" class="modal-img" src="img/Portfolio1-big.svg" alt="Tonic">
+    
+            </div>
+            <div class="modal-text toggle-body">
+            
+              <p id="modalDesc" class="toggle-p"></p>
+              
+            
+              <div class="modal-footer ">
+                <ul id="modalTech" class="toggle-list-top li"></ul>
+                <div class="btn-modal">
+                <button id="modalBtn1" type="button" class="btn-toggle">See Live &nbsp; <img class="icon" src="/img/liveIcon.svg" alt="Live"></button>
+                <button id="modalBtn2" type="button" class="btn-toggle">See Source &nbsp; <img class="icon" src="/img/sourceIcon.svg" alt="Source"></button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <section class="card-section">
+
+    <section class="card-section work">
         <section class="card-image se">
             <img class="img-card" src="img/SnapshootPortfolio(2).png" alt="second project">
         </section>
@@ -94,11 +129,11 @@
                 <li class="css">css</li>
                 <li class="javascript">javaScript</li>
             </ul>
-            <button class="btn1">See Project</button>
+            <button class="btn1" id="myBtn2" >See Project</button>
         </section>
     </section>
 
-    <section class="card-section">
+    <section class="card-section work">
         <section class="card-image">
             <img class="img-card" src="img/SnapshootPortfolio(3).png" alt="third project">
         </section>
@@ -115,11 +150,11 @@
                 <li>css</li>
                 <li>javaScript</li>
             </ul>
-            <button class="btn1">See Project</button>
+            <button class="btn1" id="myBtn3" >See Project</button>
         </section>
     </section>
 
-    <section class="card-section">
+    <section class="card-section work">
         <section class="card-image se">
             <img class="img-card " src="img/SnapshootPortfolio(4).png" alt="fourth project">
         </section>
@@ -136,9 +171,11 @@
                 <li>css</li>
                 <li>javaScript</li>
             </ul>
-            <button class="btn1">See Project</button>
+            <button class="btn1" id="myBtn4" >See Project</button>
         </section>
+        
     </section>
+    </div>
     <section class="about-me" id="about">
        <section class="about-first">
             <h2 class="about-header">About<br> Myself</h2>

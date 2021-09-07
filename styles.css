@@ -313,6 +313,11 @@ li {
   margin-left: 1px;
 }
 
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+}
+
 @media only screen and (min-width: 1000px) {
   body {
     padding: 1px;
