@@ -1,13 +1,60 @@
-@media only screen and (max-width: 992px) { 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 body {
   padding: 24px;
   font-family: 'Poppins', sans-serif;
-  background-color: #fff;
+  background-color: #e5e5e5;
   display: flex;
   margin: 0;
   flex-direction: column;
+}
+
+.ham {
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.xIcon {
+  display: none;
+}
+
+.menu { 
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: blue;
+  color: white;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
+  opacity: 0.9;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+li {
+  padding: 1rem 0;
+}
+
+.menuLink {
+  display: inline;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menuLink:hover {
+  text-decoration: underline;
 }
 
 .project-section {
@@ -265,87 +312,8 @@ body {
   padding-left: 1px;
   margin-left: 1px;
 }
-.ham {
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  right: 1rem;
-  width: 3rem;
-  height: 3rem;
-  display: block;
-  border:none;
-
-  /* border: black solid 1px; */
-  background:none;
-  cursor: pointer;
-}
-
-.menu {
-  position: fixed;
-  justify-content: space-between;
-  align-items: center;
-
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100vh;
-  background: blue;
-  color: white;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
-  list-style: none;
-  display: block;
-  opacity: 0.96;
-}
-
-.header{
-  /* position: fixed; */
-  /* top: 0; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1rem 1rem 1rem;
-  background: #fff;
-  width: 100%;
-  height: 50px;
-  opacity: 0.96;
-  z-index: 1;
-}
-.showMenu {
-  transform: translateY(0);
-}
-
-.menuLink {
-  display: inline;
-  font-size: 2rem;
-  color: white;
-  text-decoration: none;
-}
-.xIcon,
-  .menuIcon{
-    display: block;
-    margin-top: 3rem;
-
-  }
-
-
-  .ham button {
-    background-color: #fff;
-  }
-}
 
 @media only screen and (min-width: 1000px) {
-  .menu{
-    display: none;
-  }
-  .ham{
-    display: none;
-  }
-  .xIcon,
-  .menuIcon{
-    display: none;
-  }
   body {
     padding: 1px;
     margin: 1px;
@@ -534,5 +502,9 @@ body {
 
   .btn3 {
     width: 9vw;
+  }
+  
+  .ham {
+    display: none;
   }
 }
