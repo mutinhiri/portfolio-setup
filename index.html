@@ -200,10 +200,11 @@
             <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
         </section>
         <section>
-            <form class="contact-form" action="https://formspree.io/f/mleaokev" method="POST">
-                <input class="contact-input" type="text" name="name-input" placeholder="Enter name here" maxlength="30" required><br>
-                <input class="contact-input" type="email" placeholder="Enter email address here" name="email-input" required><br>
+            <form class="contact-form" id="contact-form" action="https://formspree.io/f/mleaokev" method="POST">
+                <input class="contact-input" id="contact-name" type="text" name="name-input" placeholder="Enter name here" maxlength="30" required><br>
+                <input class="contact-input" id="contact-email" type="email" placeholder="Enter email address here" name="email-input" required><br>
                 <textarea class="contact-input" name="textarea-input" maxlength="500" placeholder="write your message here" cols="30" rows="10" required></textarea><br>
+                <small class="inter-font" id="email-error"></small><br> 
                 <button class="btn3 rty btn1">
                      <span class="btn-text">Get it Touch</span>
                 </button>
