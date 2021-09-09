@@ -339,7 +339,7 @@ li {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .modal-header-first {
@@ -397,7 +397,7 @@ li {
 
 .modal-image img {
   margin-left: 10px;
-  margin-top: 0px;
+  margin-top: 10px;
   width: 410px;
 }
 
@@ -415,7 +415,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 290px;
+  width: 390px;
   margin-left: 20px;
 
 }

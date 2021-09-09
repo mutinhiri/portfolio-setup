@@ -6,23 +6,6 @@ const main =  document.querySelector('.main')
 const header = document.getElementById('logo')
 const projs = document.querySelectorAll('.work')
 
-
-// function projOn() {
-//   projs.forEach(
-//     (work) => {
-//       work.style.filter = 'blur(4px)';
-//     },
-//   );
-// }
-
-// function projOff() {
-//   projs.forEach(
-//     (work) => {
-//       work.style.filter = 'blur(0px)';
-//     },
-//   );
-// }
-
 const toggleMenu = () => {
   if (menu.classList.contains("showMenu")) {
     menu.classList.remove("showMenu");
@@ -122,42 +105,6 @@ const modalObj = {
   },
 };
 
-// const modalSubt = document.getElementById('modalSubt');
-// const modalTech = document.getElementById('modalTech');
-
-// // // function addCounter() {
-// //   const counter = document.createElement('img');
-// //   counter.src = 'img/Counter.svg';
-// //   counter.alt = 'counter';
-// //   modalSubt.appendChild(counter);
-// // }
-
-// function addSubt(modal) {
-//   const firstDiv = document.createElement('div');
-//   firstDiv.className = 'font500 black font18-24';
-//   modalSubt.appendChild(firstDiv);
-//   [firstDiv.innerHTML] = modalObj[modal].subt;
-//   modalObj[modal].subt.slice(1).forEach((i) => {
-//     addCounter();
-//     const otherDiv = document.createElement('div');
-//     otherDiv.className = 'gray font18-24';
-//     modalSubt.appendChild(otherDiv);
-//     otherDiv.innerHTML = i;
-//   });
-// }
-
-// function addTechs(modal) {
-//   modalObj[modal].tech.forEach((i) => {
-//     const li = document.createElement('li');
-//     li.appendChild(document.createTextNode(i));
-//     modalTech.appendChild(li);
-//   });
-// }
-
-// function clearModal() {
-//   modalTech.innerHTML = '';
-//   modalSubt.innerHTML = '';
-// }
 
 function popModal(modal) {
   document.getElementById('modalTitle').innerHTML = modalObj[modal].title;
@@ -177,54 +124,16 @@ const mBtn4 = document.getElementById('myBtn4');
 mBtn1.onclick = function seeP1() {
   popModal('modal1');
 }
-//   modal.style.display = 'block';
-//   main.style.filter = 'blur(4px)';
-//   header.style.filter = 'blur(4px)';
-//   projOn();
-// };
 
 mBtn2.onclick = function seeP2() {
   popModal('modal2');
 }
-//   modal.style.display = 'block';
-//   main.style.filter = 'blur(4px)';
-//   header.style.filter = 'blur(4px)';
-//   projOn();
-// };
+
 
 mBtn3.onclick = function seeP3() {
   popModal('modal3');
 }
-//   modal.style.display = 'block';
-//   main.style.filter = 'blur(4px)';
-//   header.style.filter = 'blur(4px)';
-//   projOn();
-// };
 
 mBtn4.onclick = function seeP4() {
   popModal('modal4');
 }
-//   modal.style.display = 'block';
-//   main.style.filter = 'blur(4px)';
-//   header.style.filter = 'blur(4px)';
-//   projOn();
-// };
-
-// function closeModal() {
-//   modal.style.display = 'none';
-//   main.style.filter = 'blur(0px)';
-//   header.style.filter = 'blur(0px)';
-//   projOff();
-// }
-
-// xp.onclick = function x() {
-//   closeModal();
-//   clearModal();
-// };
-
-// window.onclick = function clickOut(event) {
-//   if (event.target === modal) {
-//     closeModal();
-//     clearModal();
-//   }
-// };
