@@ -332,7 +332,6 @@ li {
 
 .modal-header {
   padding: 10px 15px;
-  display: ;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -354,7 +353,7 @@ li {
 
 #overlay {
   position: fixed;
-  margin-top: 0px;
+  margin-top: 1px;
   opacity: 0;
   transition: ease-in-out 200ms;
   top: 0;
@@ -380,21 +379,20 @@ li {
   display: flex;
   justify-content: space-evenly;
   width: 50vw;
-  margin-top: 0px;
-  padding: 0px;
+  margin-top: 1px;
+  padding: 1px;
 }
 
-.modal-image img{
+.modal-image img {
   margin-left: 10px;
   margin-top: 30px;
-  width : 480px
+  width: 480px;
 }
 
 .mobile-header-links {
   display: flex;
   flex-direction: row;
 }
-
 
 @media only screen and (min-width: 1000px) {
   body {
