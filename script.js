@@ -2,6 +2,7 @@ const menu = document.querySelector('.menu');
 const ham = document.querySelector('.ham');
 const xIcon = document.querySelector('.xIcon');
 const menuIcon = document.querySelector('.menuIcon');
+const overlay = document.getElementById('overlay');
 
 const toggleMenu = () => {
   if (menu.classList.contains('showMenu')) {
@@ -39,7 +40,6 @@ menuLinks.forEach(
  
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
-const overlay = document.getElementById('overlay');
 
 openModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
