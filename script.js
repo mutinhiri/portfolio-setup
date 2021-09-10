@@ -37,7 +37,7 @@ menuLinks.forEach(
     menuLink.addEventListener('click', toggleMenu);
   },
 );
- 
+
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
 
@@ -59,7 +59,7 @@ closeModalButtons.forEach((button) => {
   button.addEventListener('click', () => {
     const modal = button.closest('.modal');
     closeModal(modal);
-    });
+  });
 });
 
 const modalObj = {
