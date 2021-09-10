@@ -130,6 +130,8 @@ mBtn4.onclick = function seeP4() {
   popModal('modal4');
 };
 
+const contactForm = document.querySelector('#contact-form');
+
 function validateEmail() {
   const emailInput = document.querySelector('#contact-email');
   const emailError = document.querySelector('#email-error');
