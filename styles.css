@@ -347,8 +347,8 @@ li {
   align-items: center;
   border-bottom: 1px solid black;
   position: relative;
-  top: 2%;
-  overflow: scroll;
+  top: -4%;
+  height: 120px;
 }
 
 .modal-header-first {
@@ -402,10 +402,11 @@ li {
 .modal-header-links {
   display: flex;
   justify-content: space-evenly;
-  width: 50vw;
   padding: 1px;
+  gap: 30px;
   position: relative;
-  top: 2%;
+  top: -40px;
+  left: -20px;
 
 }
 
@@ -625,10 +626,9 @@ li {
 
   .modal {
     max-height: 80vh;
-    overflow: scroll;
   }
 
   .modal-image img {
-    width: 50vw;
+    
   }
 }
