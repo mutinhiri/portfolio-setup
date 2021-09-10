@@ -415,6 +415,7 @@ li {
   border-radius: 0.3rem;
   font-weight: 600;
 }
+
 @media only screen and (min-width: 1000px) {
   body {
     padding: 1px;
