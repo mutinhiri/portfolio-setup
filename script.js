@@ -2,9 +2,6 @@ const menu = document.querySelector('.menu');
 const ham = document.querySelector('.ham');
 const xIcon = document.querySelector('.xIcon');
 const menuIcon = document.querySelector('.menuIcon');
-const main =  document.querySelector('.main');
-const header = document.getElementById('logo');
-const projs = document.querySelectorAll('.work');
 
 const toggleMenu = () => {
   if (menu.classList.contains('showMenu')) {
@@ -24,7 +21,7 @@ const menuLinks = document.querySelectorAll('.menuLink');
 
 menuLinks.forEach(
   (menuLink) => {
-    menuLink.addEventListener("click", toggleMenu);
+    menuLink.addEventListener('click', toggleMenu);
   },
 );
 
@@ -34,8 +31,8 @@ const overlay = document.getElementById('overlay');
 
 openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
-      const modal = document.querySelector(button.dataset.modalTarget);
-      openModal(modal);
+    const modal = document.querySelector(button.dataset.modalTarget);
+    openModal(modal);
   });
 });
 

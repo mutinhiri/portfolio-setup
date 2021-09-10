@@ -325,7 +325,6 @@ li {
   z-index: 10;
   background-color: white;
   overflow: scroll;
-  
 }
 
 .modal.active {
@@ -612,5 +611,4 @@ li {
   .modal-image img {
     width: 50vw;
   }
-
 }
