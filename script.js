@@ -1,51 +1,50 @@
-let menu = document.querySelector(".menu")
-let ham = document.querySelector(".ham")
-let xIcon = document.querySelector(".xIcon")
-let menuIcon = document.querySelector(".menuIcon")
-const main =  document.querySelector('.main')
-const header = document.getElementById('logo')
-const projs = document.querySelectorAll('.work')
+const menu = document.querySelector('.menu');
+const ham = document.querySelector('.ham');
+const xIcon = document.querySelector('.xIcon');
+const menuIcon = document.querySelector('.menuIcon');
+const main =  document.querySelector('.main');
+const header = document.getElementById('logo');
+const projs = document.querySelectorAll('.work');
 
 const toggleMenu = () => {
-  if (menu.classList.contains("showMenu")) {
-    menu.classList.remove("showMenu");
-    xIcon.style.display = "none";
-    menuIcon.style.display = "block";
+  if (menu.classList.contains('showMenu')) {
+    menu.classList.remove('showMenu');
+    xIcon.style.display = 'none';
+    menuIcon.style.display = 'block';
   } else {
-    menu.classList.add("showMenu");
-    xIcon.style.display = "block";
-    menuIcon.style.display = "none";
+    menu.classList.add('showMenu');
+    xIcon.style.display = 'block';
+    menuIcon.style.display = 'none';
   }
-}
+};
 
-ham.addEventListener("click", toggleMenu);
+ham.addEventListener('click', toggleMenu);
 
-const menuLinks = document.querySelectorAll(".menuLink");
+const menuLinks = document.querySelectorAll('.menuLink');
 
 menuLinks.forEach(
   (menuLink) => {
     menuLink.addEventListener("click", toggleMenu);
-  }
-)
+  },
+);
 
-
-const openModalButtons = document.querySelectorAll('[data-modal-target]')
-const closeModalButtons = document.querySelectorAll('[data-close-button]')
-const overlay = document.getElementById('overlay')
+const openModalButtons = document.querySelectorAll('[data-modal-target]');
+const closeModalButtons = document.querySelectorAll('[data-close-button]');
+const overlay = document.getElementById('overlay');
 
 openModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const modal = document.querySelector(button.dataset.modalTarget)
-        openModal(modal)
-    })
+  button.addEventListener('click', () => {
+      const modal = document.querySelector(button.dataset.modalTarget);
+      openModal(modal);
+  });
 });
 
-overlay.addEventListener('click' , () =>{
-    const modals = document.querySelectorAll('.modal.active')
-    modals.forEach(modal => {
-        closeModal(modal)
-    })
-})
+overlay.addEventListener('click', () => {
+  const modals = document.querySelectorAll('.modal.active')
+  modals.forEach(modal => {
+      closeModal(modal)
+  });
+});
 
 closeModalButtons.forEach(button => {
     button.addEventListener('click', () => {
