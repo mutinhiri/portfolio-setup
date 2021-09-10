@@ -2,3 +2,5 @@ node_modules/
 css/
 webfonts/
 style.css
+.vscode
+settings.json

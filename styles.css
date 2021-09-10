@@ -9,6 +9,54 @@ body {
   flex-direction: column;
 }
 
+.ham {
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.xIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: blue;
+  color: white;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
+  opacity: 0.9;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+li {
+  padding: 1rem 0;
+}
+
+.menuLink {
+  display: inline;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menuLink:hover {
+  text-decoration: underline;
+}
+
 .project-section {
   display: grid;
   grid-template-columns: 1fr;
@@ -265,6 +313,121 @@ body {
   margin-left: 1px;
 }
 
+/* this is the beggining of button overflow */
+.modal {
+  position: fixed;
+  top: 42%;
+  left: 55%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 500ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+  max-height: 120%;
+  width: 343px;
+  position: fixed;
+  left: 50%;
+  height: 743px;
+  top: 50%;
+  padding: 16px;
+}
+
+.modal-header {
+  display: flex;
+  padding: 1px 1px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  position: relative;
+  top: -4%;
+  height: 120px;
+}
+
+.modal-header-first {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 10px 15px;
+  max-height: 480px;
+}
+
+.modal-para {
+  position: static;
+  width: 311px;
+  height: 220px;
+  left: 1px;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 1px;
+}
+
+#overlay {
+  position: fixed;
+  margin-top: 1px;
+  opacity: 0;
+  transition: ease-in-out 200ms;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c1c7d0;
+  pointer-events: none;
+}
+
+#overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.modal-header-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1px;
+  gap: 30px;
+  position: relative;
+  top: -40px;
+  left: -20px;
+}
+
+.modal-image img {
+  position: static;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 311px;
+  left: 16px;
+  height: 220px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 1px;
+  width: 311px;
+  height: 56px;
+  position: absolute;
+  bottom: -6px;
+}
+
 @media only screen and (min-width: 1000px) {
   body {
     padding: 1px;
@@ -454,5 +617,50 @@ body {
 
   .btn3 {
     width: 9vw;
+  }
+
+  .ham {
+    display: none;
+  }
+
+  .modal.active {
+    width: 1006px;
+    height: 872px;
+  }
+
+  .modal-header-links {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: -340px;
+  }
+
+  .modal-image img {
+    width: 988px;
+    height: 536px;
+    border-radius: 8px;
+  }
+
+  .modal-container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  .modal-para {
+    position: static;
+    width: 100%;
+    height: 220px;
+    left: 1px;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 12px 1px;
+  }
+
+  .footer-container {
+    position: relative;
+    top: -20px;
+    gap: 1px;
+    display: flex;
+    justify-content: left;
   }
 }

@@ -1,12 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # My Portfolio
+> ![screenshot](./img/Screenshot1.png)
+> ![screenshot] (./img/Screenshot2.png)
 >This front end design portfolio is an implementation of figma design tools
 >Flexbox is used to arrange elements in positions in this page 
 ## Built With
 
 - HTML5
 - CSS3
+
+## Getting Started
+
+[Live Demo] (https://mutinhiri.github.io/portfolio-setup)
 
 ### Usage
  - to get a local copy up and running follow these simple example steps.
