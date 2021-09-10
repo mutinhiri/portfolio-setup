@@ -15,6 +15,18 @@ const toggleMenu = () => {
   }
 };
 
+function openModal(modal) {
+  if (modal == null) return
+  modal.classList.add('active')
+  overlay.classList.add('active')
+}
+
+function closeModal(modal) {
+  if (modal == null) return 
+  modal.classList.remove('active')
+  overlay.classList.remove('active')
+}
+
 ham.addEventListener('click', toggleMenu);
 
 const menuLinks = document.querySelectorAll('.menuLink');
@@ -25,7 +37,7 @@ menuLinks.forEach(
   },
 );
 
-const mafutabtn = document.getElementById('mafuta')
+
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
@@ -51,17 +63,7 @@ closeModalButtons.forEach((button) => {
     })
 });
 
-function openModal(modal) {
-    if (modal == null) return
-    modal.classList.add('active')
-    overlay.classList.add('active')
-}
 
-function closeModal(modal) {
-    if (modal == null) return 
-    modal.classList.remove('active')
-    overlay.classList.remove('active')
-}
 
 const modalObj = {
   modal1: {
