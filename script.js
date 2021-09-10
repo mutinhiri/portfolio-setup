@@ -16,15 +16,15 @@ const toggleMenu = () => {
 };
 
 function openModal(modal) {
-  if (modal == null) return
-  modal.classList.add('active')
-  overlay.classList.add('active')
+  if (modal == null) return;
+  modal.classList.add('active');
+  overlay.classList.add('active');
 }
 
 function closeModal(modal) {
-  if (modal == null) return 
-  modal.classList.remove('active')
-  overlay.classList.remove('active')
+  if (modal == null) return;
+  modal.classList.remove('active');
+  overlay.classList.remove('active');
 }
 
 ham.addEventListener('click', toggleMenu);
@@ -36,8 +36,7 @@ menuLinks.forEach(
     menuLink.addEventListener('click', toggleMenu);
   },
 );
-
-
+ 
 const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
@@ -50,20 +49,18 @@ openModalButtons.forEach((button) => {
 });
 
 overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal.active')
-  modals.forEach(modal => {
-      closeModal(modal)
+  const modals = document.querySelectorAll('.modal.active');
+  modals.forEach((modal) => {
+    closeModal(modal);
   });
 });
 
 closeModalButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-        const modal = button.closest('.modal')
-        closeModal(modal)
-    })
+  button.addEventListener('click', () => {
+    const modal = button.closest('.modal');
+    closeModal(modal);
+    });
 });
-
-
 
 const modalObj = {
   modal1: {
@@ -104,35 +101,31 @@ const modalObj = {
   },
 };
 
-
 function popModal(modal) {
   document.getElementById('modalTitle').innerHTML = modalObj[modal].title;
   document.getElementById('modalDesc').innerHTML = modalObj[modal].desc;
-  document.getElementById('modalImg').setAttribute("src", modalObj[modal].img);
+  document.getElementById('modalImg').setAttribute('src', modalObj[modal].img);
   document.getElementById('modalBtn1').setAttribute('onClick', `location.href='${modalObj[modal].live}';`);
   document.getElementById('modalBtn2').setAttribute('onClick', `location.href='${modalObj[modal].source}';`);
 }
 
-const modal = document.getElementById('myModal');
 const mBtn1 = document.getElementById('myBtn1');
 const mBtn2 = document.getElementById('myBtn2');
 const mBtn3 = document.getElementById('myBtn3');
 const mBtn4 = document.getElementById('myBtn4');
-// const xp = document.getElementsByClassName('xp')[0];
 
 mBtn1.onclick = function seeP1() {
   popModal('modal1');
-}
+};
 
 mBtn2.onclick = function seeP2() {
   popModal('modal2');
-}
-
+};
 
 mBtn3.onclick = function seeP3() {
   popModal('modal3');
-}
+};
 
 mBtn4.onclick = function seeP4() {
   popModal('modal4');
-}
+};
