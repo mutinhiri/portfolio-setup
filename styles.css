@@ -325,7 +325,7 @@ li {
   z-index: 10;
   background-color: white;
   overflow: scroll;
-  height: fit-content;
+  
 }
 
 .modal.active {
@@ -335,7 +335,7 @@ li {
 .modal-header {
   display: flex;
   padding: 1px 1px;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
@@ -344,7 +344,7 @@ li {
 
 .modal-header-first {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   width: 50vw;
 }
@@ -360,6 +360,7 @@ li {
 
 .modal-body {
   padding: 10px 15px;
+  max-height: 480px;
 }
 
 #overlay {
@@ -371,19 +372,13 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color:#c1c7d0;
+  background-color: #c1c7d0;
   pointer-events: none;
 }
 
 #overlay.active {
   pointer-events: all;
   opacity: 1;
-}
-
-.modal-header-first {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .modal-header-links {
@@ -401,11 +396,6 @@ li {
   width: 410px;
 }
 
-.modal-body {
-  max-height: 480px;
-  overflow: scrol;
-}
-
 .mobile-header-links {
   display: flex;
   flex-direction: row;
@@ -417,7 +407,6 @@ li {
   align-items: flex-start;
   width: 390px;
   margin-left: 20px;
-
 }
 
 @media only screen and (min-width: 1000px) {
@@ -620,8 +609,8 @@ li {
     overflow: scroll;
   }
 
-  .modal-image img{
+  .modal-image img {
     width: 50vw;
   }
-  
+
 }
