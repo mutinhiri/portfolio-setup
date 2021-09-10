@@ -145,7 +145,7 @@ function validateEmail() {
 }
 
 contactForm.addEventListener('submit', (sub) => {
-  if (!validateEmail()) {
+  if (validateEmail()) {
     sub.preventDefault();
   }
 });
