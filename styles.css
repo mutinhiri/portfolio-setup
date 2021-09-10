@@ -324,11 +324,19 @@ li {
   border-radius: 10px;
   z-index: 10;
   background-color: white;
-  overflow: scroll;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
+  max-height: 120%;
+  width: 343px;
+  position: fixed;
+  left: 50%;
+  height: 743px;
+  top: 50%;
+  padding: 16px;
 }
 
 .modal-header {
@@ -338,14 +346,15 @@ li {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
-  overflow: hidden;
+  position: relative;
+  top: 2%;
+  overflow: scroll;
 }
 
 .modal-header-first {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  width: 50vw;
+  width: 100%;
 }
 
 .modal-header .close-button {
@@ -360,6 +369,16 @@ li {
 .modal-body {
   padding: 10px 15px;
   max-height: 480px;
+}
+
+.modal-para {
+  position: static;
+  width: 311px;
+  height: 220px;
+  left: 0px;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 0px;
 }
 
 #overlay {
@@ -384,28 +403,29 @@ li {
   display: flex;
   justify-content: space-evenly;
   width: 50vw;
-  margin-top: -40px;
   padding: 1px;
-  margin-bottom: -40px;
+  position: relative;
+  top: 2%;
+
 }
 
 .modal-image img {
+  position: static;
   margin-left: 10px;
   margin-top: 10px;
-  width: 410px;
-}
-
-.mobile-header-links {
-  display: flex;
-  flex-direction: row;
+  width: 311px;
+  left: 16px;
+  height: 220px;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  width: 390px;
-  margin-left: 20px;
+  margin: 12px 0px;
+  width: 311px;
+  height: 56px;
+  position: absolute;
+  bottom: -6px;
 }
 
 @media only screen and (min-width: 1000px) {
