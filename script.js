@@ -72,7 +72,6 @@ const modalObj = {
     live: 'https://roaring-croissant-89db8c.netlify.app/',
     source: 'https://github.com/mutinhiri/portfolio-setup',
   },
-  
   modal2: {
     title: 'Covid Stats App',
     subt: ['CANOPY', 'Back End Dev', '2015'],
