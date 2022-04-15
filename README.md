@@ -3,6 +3,8 @@
 # My Portfolio
 
 > ![screenshot] (./img/Screenshot1.png)
+![screenshot](img/Screenshot1.png)
+
 >This front end design portfolio is an implementation of figma design tools
 >Flexbox is used to arrange elements in positions in this page 
 ## Built With
