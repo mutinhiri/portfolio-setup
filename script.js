@@ -64,21 +64,21 @@ closeModalButtons.forEach((button) => {
 
 const modalObj = {
   modal1: {
-    title: 'Tonic',
+    title: 'Leaderboard',
     subt: ['CANOPY', 'Back End Dev', '2015'],
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: 'img/SnapshootPortfolio(1).png',
+    img: 'img/leaderboard.png',
     tech: ['html', 'css', 'javaScript'],
-    live: 'https://mutinhiri.github.io/My-portfolio/',
+    live: 'https://roaring-croissant-89db8c.netlify.app/',
     source: 'https://github.com/mutinhiri/portfolio-setup',
   },
   modal2: {
-    title: 'Multi-Post Stories',
+    title: 'Covid Stats App',
     subt: ['CANOPY', 'Back End Dev', '2015'],
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: 'img/SnapshootPortfolio(2).png',
-    tech: ['html', 'css', 'javaScript'],
-    live: 'https://mutinhiri.github.io/My-portfolio/',
+    img: 'img/covidapp.png',
+    tech: ['html', 'css', 'javaScript', 'react'],
+    live: 'https://priceless-kirch-2b7a76.netlify.app',
     source: 'https://github.com/mutinhiri/portfolio-setup',
   },
   modal3: {
@@ -87,7 +87,7 @@ const modalObj = {
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
     img: 'img/SnapshootPortfolio(3).png',
     tech: ['html', 'css', 'javaScript'],
-    live: 'https://mutinhiri.github.io/My-portfolio/',
+    live: 'https://priceless-kirch-2b7a76.netlify.app/',
     source: 'https://github.com/mutinhiri/portfolio-setup',
   },
   modal4: {
